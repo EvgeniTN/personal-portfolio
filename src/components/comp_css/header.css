@@ -4,7 +4,7 @@ header {
 	font-family: "Inter", sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
-	height: 40vh;
+	height: 50vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -14,7 +14,7 @@ header {
 	/* border: 1px solid lightblue; */
 	flex-grow: 1;
 	height: 100%;
-	max-width: 50%;
+	max-width: 60%;
 	display: flex;
 	align-items: stretch;
 }
@@ -30,6 +30,10 @@ header {
 	align-items: start;
 	justify-content: center;
 	gap: 1rem;
+}
+
+.mail-link {
+	color: var(--accent);
 }
 
 .header-right {

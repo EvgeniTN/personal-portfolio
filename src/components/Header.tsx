@@ -26,7 +26,10 @@ function Header() {
 							Greenwich.
 						</p>
 						<div>
-							Get in touch 👉 <a href="/">dev@evgeni.uk</a>
+							Get in touch 👉{" "}
+							<a href="mailto:dev@evgeni.uk" className="mail-link">
+								dev@evgeni.uk
+							</a>
 						</div>
 
 						{/* <a href="" className="cv_download">
