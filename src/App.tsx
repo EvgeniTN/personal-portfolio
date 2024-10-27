@@ -1,5 +1,6 @@
 // import { useState } from "react";
 import "./App.css";
+import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 		<>
 			<div>
 				<Navbar />
-				<h1>henlo world</h1>
+				<Header />
 			</div>
 		</>
 	);
