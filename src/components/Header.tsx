@@ -1,5 +1,6 @@
 // import React from "react";
 import "../components/comp_css/header.css";
+import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Header() {
 	return (
@@ -16,7 +17,17 @@ function Header() {
 							final year studying BEng Softare Engineering at University of
 							Greenwich.
 						</p>
-						<a href="" className="cv_download"></a>
+						<div className="actions">
+							<a href="" className="social-links">
+								<FaLinkedin />
+							</a>
+							<a href="" className="social-links">
+								<FaGithub />
+							</a>
+						</div>
+						{/* <a href="" className="cv_download">
+							View my CV <FaDownload />
+						</a> */}
 					</div>
 					<div className="header-right">
 						<div className="img-wrapper"></div>

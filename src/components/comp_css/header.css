@@ -56,7 +56,7 @@ h1 {
 	line-height: 80%;
 }
 
-h2 {
+header h2 {
 	color: var(--accent);
 	font-size: 1.8rem;
 }
@@ -65,21 +65,35 @@ header p {
 	line-height: 140%;
 }
 
-/* .cv_download {
+.cv_download {
 	text-decoration: none;
 	color: var(--bg-color);
 	background-color: var(--call-to-action);
 
-	padding: 1rem 2rem;
-	margin-top: 1rem;
-}  */
+	display: flex;
+	gap: 0.5rem;
+	align-items: center;
+	padding: 1rem;
+	/* margin-top: 1rem; */
+}
 
-.cv_download {
+.actions {
+	/* border: 1px solid salmon; */
+	font-size: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 1rem;
+}
+
+.social-links {
+	display: flex;
 	text-decoration: none;
-	color: var(--accent);
-	/* background-color: var(--call-to-action); */
-	/* border-radius: 100px; */
+	color: var(--bg-light);
+	transition: ease-in-out 0.2s;
+}
 
-	/* padding: 1rem 2rem; */
-	margin-top: 1rem;
+.social-links:hover {
+	color: var(--accent);
 }

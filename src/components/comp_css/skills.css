@@ -1,0 +1,19 @@
+.skills-section {
+	font-family: "Inter", sans-serif;
+	max-width: 50%;
+	margin: auto;
+}
+
+.icon-wrapper {
+	display: flex;
+	justify-content: start;
+	gap: 1rem;
+	flex-wrap: wrap;
+	margin-bottom: 1rem;
+}
+
+.skills-section h2 {
+	color: white;
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
