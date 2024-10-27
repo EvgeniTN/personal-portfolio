@@ -19,7 +19,7 @@ import { TbSql } from "react-icons/tb";
 function Skills() {
 	return (
 		<>
-			<div className="skills-section">
+			<div className="skills-section" id="skills-section">
 				<h2>Technical Skills</h2>
 				<div className="icon-wrapper">
 					<Skill title="React.JS" icon={<FaReact />} />

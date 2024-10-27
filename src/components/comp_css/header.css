@@ -4,8 +4,9 @@ header {
 	font-family: "Inter", sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
-	height: 50vh;
+	height: 90vh;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
@@ -44,8 +45,8 @@ header {
 }
 
 .img-wrapper {
-	width: 80%;
-	height: 70%;
+	width: 90%;
+	height: 50%;
 	background-image: url(src/assets/pfp.jpg);
 	background-position: center;
 	background-size: cover;
@@ -100,4 +101,31 @@ header p {
 
 .social-links:hover {
 	color: var(--accent);
+}
+
+.scroll {
+	/* border: 1px solid salmon; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	color: var(--accent);
+	font-size: 2rem;
+	margin: 4rem;
+	filter: drop-shadow(0px 0px 10px var(--accent));
+
+	transform: scale (1);
+	animation: pulse 4s infinite ease-in-out;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.9);
+	}
+	40% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(0.9);
+	}
 }

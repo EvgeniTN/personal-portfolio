@@ -1,4 +1,5 @@
 // import React from "react";
+import { LuArrowDownFromLine, LuMouse } from "react-icons/lu";
 import "../components/comp_css/header.css";
 import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 
@@ -40,6 +41,10 @@ function Header() {
 						<div className="img-wrapper"></div>
 					</div>
 				</div>
+				<a href="#skills-section" className="scroll">
+					{/* <span>Scroll</span> */}
+					<LuArrowDownFromLine />
+				</a>
 			</header>
 		</>
 	);

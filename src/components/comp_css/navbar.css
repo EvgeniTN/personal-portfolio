@@ -1,8 +1,10 @@
 nav {
+	position: relative;
 	display: flex;
-	padding: 2rem 0rem;
+	align-items: center;
 	max-width: 60%;
 	margin: auto;
+	height: 10vh;
 
 	color: white;
 	font-family: "Inter", sans-serif;
