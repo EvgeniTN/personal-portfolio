@@ -53,6 +53,7 @@ header {
 
 h1 {
 	font-size: 4rem;
+	line-height: 80%;
 }
 
 h2 {
@@ -61,13 +62,24 @@ h2 {
 }
 
 header p {
-	line-height: 1.5rem;
+	line-height: 140%;
 }
 
-.cv_download {
+/* .cv_download {
 	text-decoration: none;
 	color: var(--bg-color);
 	background-color: var(--call-to-action);
+
 	padding: 1rem 2rem;
+	margin-top: 1rem;
+}  */
+
+.cv_download {
+	text-decoration: none;
+	color: var(--accent);
+	/* background-color: var(--call-to-action); */
+	/* border-radius: 100px; */
+
+	/* padding: 1rem 2rem; */
 	margin-top: 1rem;
 }

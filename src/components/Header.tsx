@@ -16,9 +16,7 @@ function Header() {
 							final year studying BEng Softare Engineering at University of
 							Greenwich.
 						</p>
-						<a href="" className="cv_download">
-							Check out my CV!
-						</a>
+						<a href="" className="cv_download"></a>
 					</div>
 					<div className="header-right">
 						<div className="img-wrapper"></div>
