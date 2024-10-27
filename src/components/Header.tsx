@@ -21,9 +21,9 @@ function Header() {
 							</a>
 						</div>
 						<p>
-							A passionate software engineer and web developer, currently in my
-							final year studying BEng Softare Engineering at University of
-							Greenwich.
+							A passionate software engineer, web developer and motorsports
+							enthusiast, currently in my final year studying BEng Softare
+							Engineering at University of Greenwich 🎓.
 						</p>
 						<div>
 							Get in touch 👉{" "}
