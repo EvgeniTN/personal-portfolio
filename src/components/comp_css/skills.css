@@ -2,18 +2,21 @@
 	font-family: "Inter", sans-serif;
 	max-width: 50%;
 	margin: auto;
+	display: flex;
 }
 
 .icon-wrapper {
 	display: flex;
 	justify-content: start;
-	gap: 1rem;
+	/* gap: 1rem; */
 	flex-wrap: wrap;
 	margin-bottom: 1rem;
+	/* border: 1px solid beige; */
 }
 
 .skills-section h2 {
 	color: white;
-	font-size: 3rem;
+	font-size: 1.4rem;
 	margin-bottom: 1rem;
+	flex-basis: 40%;
 }

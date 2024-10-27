@@ -1,14 +1,15 @@
 .skillWrapper {
-	border: 3px solid var(--accent);
+	/* border: 3px solid var(--accent); */
 	display: flex;
 	flex-direction: column;
 	/* background-color: var(--bg-light); */
 
 	/* color: var(--bg-dark); */
-	color: var(--accent);
+	color: var(--bg-light);
 	justify-content: center;
 	align-items: center;
 	padding: 1rem 1rem;
+	flex-basis: 25%;
 	/* text-shadow: 0px 0px 20px var(--accent); */
 }
 
