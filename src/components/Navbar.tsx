@@ -8,9 +8,15 @@ function Navbar() {
 				<div className="nav-left">Evgeni.</div>
 				<div className="nav-right">
 					<ul className="nav-links">
-						<li className="nav-item">Home</li>
-						<li className="nav-item">Projects</li>
-						<li className="nav-item">Contact</li>
+						<li className="nav-item">
+							<a href="/">Home</a>
+						</li>
+						<li className="nav-item">
+							<a href="/">Projects</a>
+						</li>
+						<li className="nav-item">
+							<a href="/">Contact</a>
+						</li>
 					</ul>
 				</div>
 			</nav>

@@ -28,5 +28,15 @@ nav ul {
 	gap: 2rem;
 	list-style: none;
 	font-weight: 400;
+}
+
+.nav-item a {
+	text-decoration: none;
+	transition: color ease-in-out 0.3s;
 	color: var(--bg-light);
+}
+
+.nav-item > a:hover {
+	color: white;
+	border-bottom: 2px solid var(--accent);
 }
