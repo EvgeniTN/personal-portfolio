@@ -12,11 +12,6 @@ function Header() {
 							<span>👋</span> Hello, I'm Evgeni
 						</h1>
 						<h2>Software Engineer and Web Developer</h2>
-						<p>
-							A passionate software engineer and web developer, currently in my
-							final year studying BEng Softare Engineering at University of
-							Greenwich.
-						</p>
 						<div className="actions">
 							<a href="" className="social-links">
 								<FaLinkedin />
@@ -25,6 +20,11 @@ function Header() {
 								<FaGithub />
 							</a>
 						</div>
+						<p>
+							A passionate software engineer and web developer, currently in my
+							final year studying BEng Softare Engineering at University of
+							Greenwich.
+						</p>
 						{/* <a href="" className="cv_download">
 							View my CV <FaDownload />
 						</a> */}
