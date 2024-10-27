@@ -25,6 +25,8 @@ nav {
 nav ul {
 	display: flex;
 	justify-content: end;
-	gap: 1rem;
+	gap: 2rem;
 	list-style: none;
+	font-weight: 400;
+	color: var(--bg-light);
 }
