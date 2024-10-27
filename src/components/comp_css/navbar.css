@@ -1,0 +1,28 @@
+nav {
+	display: flex;
+	padding: 2rem 10rem;
+
+	color: white;
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-size: 1.1rem;
+}
+
+.nav-left {
+	flex-basis: 50%;
+	justify-content: start;
+	font-weight: bold;
+}
+
+.nav-right {
+	flex-basis: 50%;
+	justify-content: start;
+}
+
+nav ul {
+	display: flex;
+	justify-content: end;
+	gap: 1rem;
+	list-style: none;
+}
