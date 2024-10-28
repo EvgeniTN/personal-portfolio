@@ -16,3 +16,12 @@
 .skillWrapper span {
 	font-size: 3rem;
 }
+
+.cvDownload {
+	text-decoration: none;
+	color: var(--accent);
+	border: 2px solid var(--accent);
+	padding: 1rem 2rem;
+	border-radius: 100px;
+	font-weight: bold;
+}

@@ -1,0 +1,17 @@
+.projects {
+	max-width: 50%;
+	margin: auto;
+	font-family: "Inter", sans-serif;
+	margin-top: 1rem;
+}
+
+.projects h2 {
+	color: white;
+	font-size: 2rem;
+}
+
+.projects-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
