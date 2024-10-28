@@ -1,8 +1,9 @@
 .projects {
-	max-width: 50%;
+	max-width: 60%;
 	margin: auto;
 	font-family: "Inter", sans-serif;
 	margin-top: 1rem;
+	/* border: 1px solid gray; */
 }
 
 .projects h2 {
@@ -14,4 +15,13 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin: 2.5rem 0rem;
+}
+
+.projects-wrapper {
+	/* border: 1px solid blue; */
+	display: flex;
+	/* justify-content: space-between; */
+	gap: 5rem;
+	flex-direction: column;
 }
