@@ -9,10 +9,14 @@ import greenandspotHeader from "../assets/greenandspot_header.png";
 function Projects() {
 	return (
 		<>
-			<div className="projects">
+			<div className="projects" id="projects">
 				<div className="projects-title">
 					<h2>Projects</h2>
-					<a href="/" className={styles.cvDownload}>
+					<a
+						href="src/assets/Evgeni Nikolov CV.pdf"
+						target="_blank"
+						className={styles.cvDownload}
+					>
 						CV <FaDownload />
 					</a>
 				</div>

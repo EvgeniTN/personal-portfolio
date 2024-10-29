@@ -6,7 +6,7 @@ import { FaCircleCheck } from "react-icons/fa6";
 export default function Contact() {
 	return (
 		<>
-			<div className="contact-section">
+			<div className="contact-section" id="contact-section">
 				{/* <h2>Get in touch</h2> */}
 				<h3>
 					Would you like to <span>work</span>, <span>collaborate</span> or{" "}
@@ -23,16 +23,25 @@ export default function Contact() {
 				</div>
 				<ul>
 					<li>
-						<a href="">Email</a>
+						<a href="mailto:dev@evgeni.uk">Email</a>
 					</li>
 					<li>
-						<a href="">LinkedIn</a>
+						<a
+							href="https://www.linkedin.com/in/evgeni-t-nikolov/"
+							target="_blank"
+						>
+							LinkedIn
+						</a>
 					</li>
 					<li>
-						<a href="">GitHub</a>
+						<a href="https://github.com/EvgeniTN" target="_blank">
+							GitHub
+						</a>
 					</li>
 					<li>
-						<a href="">Resume</a>
+						<a href="src/assets/Evgeni Nikolov CV.pdf" target="_blank">
+							Resume
+						</a>
 					</li>
 				</ul>
 				<a href="#navbar" className={styles.scroll}>

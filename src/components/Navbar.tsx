@@ -9,10 +9,10 @@ function Navbar() {
 				<div className="nav-right">
 					<ul className="nav-links">
 						<li className="nav-item">
-							<a href="/">Projects</a>
+							<a href="#projects">Projects</a>
 						</li>
 						<li className="nav-item">
-							<a href="/">Contact</a>
+							<a href="#contact-section">Contact</a>
 						</li>
 					</ul>
 				</div>

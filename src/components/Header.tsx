@@ -15,10 +15,18 @@ function Header() {
 						</h1>
 						<h2>Software Engineer and Web Developer</h2>
 						<div className="actions">
-							<a href="" className="social-links">
+							<a
+								href="https://linkedin.com/in/e-nikolov"
+								className="social-links"
+								target="_blank"
+							>
 								<FaLinkedin />
 							</a>
-							<a href="" className="social-links">
+							<a
+								href="https://github.com/EvgeniTN"
+								className="social-links"
+								target="_blank"
+							>
 								<FaGithub />
 							</a>
 						</div>
