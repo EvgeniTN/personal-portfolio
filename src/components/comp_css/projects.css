@@ -25,3 +25,15 @@
 	gap: 5rem;
 	flex-direction: column;
 }
+
+@media (max-width: 1600px) {
+	.projects {
+		max-width: 70%;
+	}
+}
+
+@media (max-width: 1300px) {
+	.projects {
+		max-width: 90%;
+	}
+}

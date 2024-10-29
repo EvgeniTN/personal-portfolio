@@ -55,16 +55,19 @@ header {
 	margin-right: 0;
 	/* border-radius: 25px; */
 	border-radius: 43% 57% 62% 38% / 34% 36% 64% 66%;
+	/* aspect-ratio: 3/4; */
 }
 
 h1 {
-	font-size: 4rem;
+	font-size: clamp(2rem, 5vw, 4rem);
+	/* font-size: 4rem; */
+
 	line-height: 80%;
 }
 
 header h2 {
 	color: var(--accent);
-	font-size: 1.8rem;
+	font-size: clamp(1rem, 2.5vw, 1.8rem);
 }
 
 header p {
@@ -102,4 +105,35 @@ header p {
 
 .social-links:hover {
 	color: var(--accent);
+}
+
+/* Responsiveness */
+
+@media (max-width: 1600px) {
+	.header-wrapper {
+		max-width: 70%;
+	}
+}
+
+@media (max-width: 1300px) {
+	.header-wrapper {
+		max-width: 90%;
+	}
+
+	.img-wrapper {
+		height: 40%;
+	}
+}
+
+@media (max-width: 1000px) {
+	.header-wrapper {
+		flex-direction: column;
+	}
+
+	.header-left {
+		flex-basis: 100%;
+	}
+	.header-right {
+		display: none;
+	}
 }

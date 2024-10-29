@@ -24,3 +24,21 @@
 	flex-basis: 40%;
 	border-bottom: 1px solid var(--accent);
 }
+
+@media (max-width: 1600px) {
+	.skills-section {
+		max-width: 60%;
+	}
+}
+
+@media (max-width: 1300px) {
+	.skills-section {
+		max-width: 70%;
+	}
+}
+
+@media (max-width: 1000px) {
+	.skills-section {
+		max-width: 100%;
+	}
+}

@@ -53,7 +53,7 @@
 }
 
 .projectInfo h3 {
-	font-size: 3rem;
+	font-size: clamp(2rem, 2.5vw, 3rem);
 	font-weight: 300;
 	/* border-bottom: 1px solid var(--accent); */
 }
@@ -120,5 +120,37 @@
 	100% {
 		/* transform: scale(0.9); */
 		transform: translateY(-1rem);
+	}
+}
+
+@media (max-width: 1000px) {
+	.skillWrapper {
+		flex-basis: 25%;
+	}
+
+	.projectWrapper {
+		flex-direction: column;
+	}
+
+	.projectImgWrapper {
+		flex-basis: unset;
+	}
+
+	.projectInfo {
+		flex-basis: unset;
+		margin-left: 0;
+		margin-top: 2.5rem;
+	}
+}
+
+@media (max-width: 600px) {
+	.skillWrapper {
+		flex-basis: 33.33333%;
+	}
+}
+
+@media (max-width: 400px) {
+	.skillWrapper {
+		flex-basis: 50%;
 	}
 }

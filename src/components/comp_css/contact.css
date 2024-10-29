@@ -19,6 +19,7 @@
 	margin-bottom: 3rem;
 }
 
+/* unused for now */
 .contact-section h2 {
 	font-size: 3rem;
 }
@@ -26,7 +27,7 @@
 .contact-section h3 {
 	margin: auto;
 	max-width: 32ch;
-	font-size: 3rem;
+	font-size: clamp(2rem, 5vw, 3rem);
 	font-weight: 300;
 }
 
@@ -56,11 +57,21 @@
 .contact-section ul a {
 	text-decoration: none;
 	color: var(--bg-light);
-	font-size: 2rem;
+	font-size: clamp(1.5rem, 2.5vw, 2rem);
 	/* border-bottom: 1px solid var(--accent); */
 }
 
 .contact-section ul a:hover {
 	color: white;
 	border-bottom: 3px solid var(--accent);
+}
+
+@media (max-width: 1000px) {
+	.contact-section ul {
+		flex-direction: column;
+	}
+
+	.checkpoint span {
+		display: none;
+	}
 }

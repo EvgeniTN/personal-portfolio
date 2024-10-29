@@ -42,3 +42,15 @@ nav ul {
 	color: white;
 	border-bottom: 2px solid var(--accent);
 }
+
+@media (max-width: 1600px) {
+	nav {
+		max-width: 70%;
+	}
+}
+
+@media (max-width: 1600px) {
+	nav {
+		max-width: 90%;
+	}
+}
