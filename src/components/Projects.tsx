@@ -24,7 +24,7 @@ function Projects() {
 					<Project
 						title="Green & Spot Joinery"
 						techStack="React.js JavaScript Vite"
-						description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure velit illo repellat? Repellendus nam vel fugiat quae voluptas similique aspernatur."
+						description="Green & Spot Joinery is a family-run carpentry business. I worked with React.JS in order create a website which allows them to promote their business and connect with customers."
 						projectLink="https://greenandspot.co.uk/"
 						linkText="Live "
 						projectImg={
@@ -37,7 +37,7 @@ function Projects() {
 					<Project
 						title="My Personal Portfolio"
 						techStack="React.js TypeScript Vite Git"
-						description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure velit illo repellat? Repellendus nam vel fugiat quae voluptas similique aspernatur."
+						description="This is the very portfolio you are currently scrolling through 😁. I created this in order display some of my projects as well make it easier for people to connect with me."
 						projectLink="/"
 						linkText="Github "
 						projectImg={
