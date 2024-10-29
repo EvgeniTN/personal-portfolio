@@ -29,9 +29,13 @@
 	font-weight: 300;
 }
 
+.contact-section h3 span {
+	color: var(--accent);
+}
+
 .contact-section a {
 	text-decoration: none;
 	color: var(--bg-light);
 	font-size: 2rem;
-	border-bottom: 1px solid var(--accent);
+	/* border-bottom: 1px solid var(--accent); */
 }

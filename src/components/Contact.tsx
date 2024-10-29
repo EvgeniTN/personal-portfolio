@@ -4,11 +4,14 @@ export default function Contact() {
 	return (
 		<>
 			<div className="contact-section">
-				<h2>Get in touch</h2>
-				<h3>Lorem ipsum dolor sit amet.</h3>
+				{/* <h2>Get in touch</h2> */}
+				<h3>
+					Would you like to <span>work</span>, <span>collaborate</span> or{" "}
+					<span>connect</span> with me?
+				</h3>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias debitis
-					aspernatur vero dolores sequi similique.
+					If that's the case you can do so by reaching out to me by any of these
+					platforms:
 				</p>
 				<ul>
 					<li>
