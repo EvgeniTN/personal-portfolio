@@ -114,18 +114,22 @@ header p {
 	margin: 4rem;
 	filter: drop-shadow(0px 0px 10px var(--accent));
 
-	transform: scale (1);
-	animation: pulse 4s infinite ease-in-out;
+	/* transform: scale (1); */
+	transform: translateY(0);
+	animation: pulse 2s infinite ease-in-out;
 }
 
 @keyframes pulse {
 	0% {
-		transform: scale(0.9);
+		/* transform: scale(0.9); */
+		transform: translateY(-1rem);
 	}
 	40% {
-		transform: scale(1.2);
+		/* transform: scale(1.2); */
+		transform: translateY(0rem);
 	}
 	100% {
-		transform: scale(0.9);
+		/* transform: scale(0.9); */
+		transform: translateY(-1rem);
 	}
 }

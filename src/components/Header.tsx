@@ -1,7 +1,7 @@
 // import React from "react";
-import { LuArrowDownFromLine, LuMouse } from "react-icons/lu";
+import { LuChevronsDown } from "react-icons/lu";
 import "../components/comp_css/header.css";
-import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Header() {
 	return (
@@ -32,18 +32,13 @@ function Header() {
 								dev@evgeni.uk
 							</a>
 						</div>
-
-						{/* <a href="" className="cv_download">
-							View my CV <FaDownload />
-						</a> */}
 					</div>
 					<div className="header-right">
 						<div className="img-wrapper"></div>
 					</div>
 				</div>
 				<a href="#skills-section" className="scroll">
-					{/* <span>Scroll</span> */}
-					<LuArrowDownFromLine />
+					<LuChevronsDown />
 				</a>
 			</header>
 		</>
