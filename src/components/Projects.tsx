@@ -33,7 +33,7 @@ function Projects() {
 					<Project
 						title="My Personal Portfolio"
 						techStack="React.js TypeScript Vite Git"
-						description="Lorem ipsum doloasdjalksbfjhlsbafhjlsdbfhljabfalhjbdfr sit, amet consectetur adipisicing elit. Iure velit illo repellat? Repellendus nam vel fugiat quae voluptas similique aspernatur."
+						description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure velit illo repellat? Repellendus nam vel fugiat quae voluptas similique aspernatur."
 						projectLink="/"
 						linkText="Github "
 						projectImg={
