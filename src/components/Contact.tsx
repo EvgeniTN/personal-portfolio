@@ -39,7 +39,7 @@ export default function Contact() {
 						</a>
 					</li>
 					<li>
-						<a href="src/assets/Evgeni Nikolov CV.pdf" target="_blank">
+						<a href="Evgeni Nikolov CV.pdf" target="_blank">
 							Resume
 						</a>
 					</li>

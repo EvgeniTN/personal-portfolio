@@ -13,7 +13,7 @@ function Projects() {
 				<div className="projects-title">
 					<h2>Projects</h2>
 					<a
-						href="src/assets/Evgeni Nikolov CV.pdf"
+						href="Evgeni Nikolov CV.pdf"
 						target="_blank"
 						className={styles.cvDownload}
 					>
