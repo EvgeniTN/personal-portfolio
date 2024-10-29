@@ -1,3 +1,5 @@
+import "./comp_css/contact.css";
+
 export default function Contact() {
 	return (
 		<>
