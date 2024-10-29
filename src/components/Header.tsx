@@ -1,6 +1,7 @@
 // import React from "react";
 import { LuChevronsDown } from "react-icons/lu";
 import "../components/comp_css/header.css";
+import styles from "./comp_css/components.module.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Header() {
@@ -37,7 +38,7 @@ function Header() {
 						<div className="img-wrapper"></div>
 					</div>
 				</div>
-				<a href="#skills-section" className="scroll">
+				<a href="#skills-section" className={styles.scroll}>
 					<LuChevronsDown />
 				</a>
 			</header>

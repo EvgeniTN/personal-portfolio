@@ -4,7 +4,7 @@ import "../components/comp_css/navbar.css";
 function Navbar() {
 	return (
 		<>
-			<nav>
+			<nav id="navbar">
 				<div className="nav-left">Evgeni.</div>
 				<div className="nav-right">
 					<ul className="nav-links">

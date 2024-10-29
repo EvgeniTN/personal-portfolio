@@ -91,3 +91,34 @@
 	background-color: var(--accent);
 	color: var(--bg-color);
 }
+
+.scroll {
+	/* border: 1px solid salmon; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	color: var(--accent);
+	font-size: 2rem;
+	/* margin: 4rem; */
+	filter: drop-shadow(0px 0px 10px var(--accent));
+
+	/* transform: scale (1); */
+	transform: translateY(0);
+	animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+	0% {
+		/* transform: scale(0.9); */
+		transform: translateY(-1rem);
+	}
+	40% {
+		/* transform: scale(1.2); */
+		transform: translateY(0rem);
+	}
+	100% {
+		/* transform: scale(0.9); */
+		transform: translateY(-1rem);
+	}
+}

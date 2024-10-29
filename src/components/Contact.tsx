@@ -1,4 +1,7 @@
+import { LuChevronsUp } from "react-icons/lu";
 import "./comp_css/contact.css";
+import styles from "./comp_css/components.module.css";
+import { FaCircleCheck } from "react-icons/fa6";
 
 export default function Contact() {
 	return (
@@ -9,10 +12,15 @@ export default function Contact() {
 					Would you like to <span>work</span>, <span>collaborate</span> or{" "}
 					<span>connect</span> with me?
 				</h3>
-				<p>
-					If that's the case you can do so by reaching out to me by any of these
-					platforms:
-				</p>
+				<div className="checkpoint">
+					<span>
+						<FaCircleCheck />
+					</span>
+					<p>
+						If that's the case you can do so by reaching out to me on any of
+						these platforms:
+					</p>
+				</div>
 				<ul>
 					<li>
 						<a href="">Email</a>
@@ -27,6 +35,9 @@ export default function Contact() {
 						<a href="">Resume</a>
 					</li>
 				</ul>
+				<a href="#navbar" className={styles.scroll}>
+					<LuChevronsUp />
+				</a>
 			</div>
 		</>
 	);
