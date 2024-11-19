@@ -3,6 +3,7 @@ import { LuChevronsDown } from "react-icons/lu";
 import "../components/comp_css/header.css";
 import styles from "./comp_css/components.module.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import pfp from "../assets/pfp.jpg";
 
 function Header() {
 	return (
@@ -43,7 +44,9 @@ function Header() {
 						</div>
 					</div>
 					<div className="header-right">
-						<div className="img-wrapper"></div>
+						<div className="img-wrapper">
+							<img src={pfp} alt="" />
+						</div>
 					</div>
 				</div>
 				<a href="#skills-section" className={styles.scroll}>

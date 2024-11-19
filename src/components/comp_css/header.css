@@ -48,7 +48,7 @@ header {
 .img-wrapper {
 	width: 90%;
 	height: 50%;
-	background-image: url(pfp.jpg);
+	background-image: url(/src/assets/pfp.jpg);
 	background-position: center;
 	background-size: cover;
 	margin: auto;
@@ -56,6 +56,10 @@ header {
 	/* border-radius: 25px; */
 	border-radius: 43% 57% 62% 38% / 34% 36% 64% 66%;
 	/* aspect-ratio: 3/4; */
+}
+
+.img-wrapper img {
+	display: none;
 }
 
 h1 {
