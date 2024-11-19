@@ -33,7 +33,7 @@ function Header() {
 						</div>
 						<p>
 							A passionate software engineer, web developer and motorsports
-							enthusiast, currently in my final year studying BEng Softare
+							enthusiast, currently in my final year studying BEng Sofwtare
 							Engineering at University of Greenwich 🎓.
 						</p>
 						<div>
